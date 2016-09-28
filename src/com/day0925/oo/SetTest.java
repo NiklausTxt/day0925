@@ -1,5 +1,7 @@
 package com.day0925.oo;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -91,8 +93,10 @@ public class SetTest {
 		set1.add(new person("v2", "2222"));
 		set1.add(new person("v3", "4444"));
 		set1.add(new person("z", "5555"));
+//		Object[] arr = set1.toArray();
+//		System.out.println(Arrays.toString(arr));
 //		System.out.println(set1);
-		
+//		Collections
 		Set<String> set = new LinkedHashSet<>();
 		set.add("one");
 		set.add("two");
